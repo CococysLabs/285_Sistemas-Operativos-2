@@ -17,12 +17,12 @@ Contenido, ejemplos y recursos del curso de Sistemas Operativos 2.
 
 ## 🚀 Flujo de Trabajo Paso a Paso
 
-
-Sigue esta secuencia exacta de comandos en tu terminal para descargar exclusivamente la carpeta de trabajo asignada:
+1. Sigue esta secuencia exacta de comandos en tu terminal para descargar exclusivamente la carpeta de trabajo asignada:
 
     ```bash
     # 1. Clonar el repositorio sin descargar archivos completos
-    git clone --no-checkout [https://github.com/CococysLabs/](https://github.com/CococysLabs/285_Sistemas-Operativos-2.git)
+      git clone --no-checkout [https://github.com/CococysLabs/285_Sistemas-Operativos-2.git](https://github.com/CococysLabs/285_Sistemas-Operativos-2.git)
+
     cd 285_Sistemas-Operativos-2
 
     # 2. Habilitar sparse-checkout en modo cono
@@ -35,20 +35,18 @@ Sigue esta secuencia exacta de comandos en tu terminal para descargar exclusivam
     git checkout main
     ```
 
-
-
-Agrega tus códigos de ejemplo, guías o material didáctico dentro de la carpeta descargada:
+2. Agrega tus códigos de ejemplo, guías o material didáctico dentro de la carpeta descargada:
 
     `[CARPETA-CICLO-ACTUAL]/Ejemplos/`
- 
-Guarda tus cambios localmente creando un commit explicativo:
+
+3. Guarda tus cambios localmente creando un commit explicativo:
 
     ```bash
     git add .
     git commit -m "feat: agregar ejemplo de [DESCRIPCION] para el ciclo [CICLO-ACTUAL]"
     ```
-  
-Envía tus cambios directamente a la rama principal:
+
+4. Envía tus cambios directamente a la rama principal:
 
     ```bash
     git push origin main
@@ -56,13 +54,12 @@ Envía tus cambios directamente a la rama principal:
 
     > **Nota:** Si por error intentas modificar o eliminar archivos fuera de la carpeta `[CARPETA-CICLO-ACTUAL]/Ejemplos`, la plataforma rechazará el `push` debido a las reglas de propiedad configuradas en `CODEOWNERS`.
 
-
 ---
 
 ## 📁 Estructura del Repositorio
 
 ```text
-[NOMBRE-REPOSITORIO]/
+281_Sistemas-Operativos-1/
 ├── .github/
 │   └── CODEOWNERS                       <-- Configuración de permisos
 ├── Ciclo-2024-Segundo-Semestre/         <-- Protegido por CODEOWNERS
@@ -74,11 +71,11 @@ Envía tus cambios directamente a la rama principal:
         └── .gitkeep
 
 ```
+
 ## 📧 Contacto
 
 - Email: computacion.cococys@gmail.com
 - Organización: [CococysLabs](https://github.com/CococysLabs)
 
 ---
-
 
