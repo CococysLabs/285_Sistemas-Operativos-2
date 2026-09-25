@@ -59,7 +59,7 @@ Contenido, ejemplos y recursos del curso de Sistemas Operativos 2.
 ## 📁 Estructura del Repositorio
 
 ```text
-281_Sistemas-Operativos-1/
+285_Sistemas-Operativos-2/
 ├── .github/
 │   └── CODEOWNERS                       <-- Configuración de permisos
 ├── Ciclo-2024-Segundo-Semestre/         <-- Protegido por CODEOWNERS
