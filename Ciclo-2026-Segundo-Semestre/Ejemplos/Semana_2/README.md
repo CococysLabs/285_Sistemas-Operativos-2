@@ -1,14 +1,14 @@
 # Semana 2: módulo de kernel con parámetros
 
-Esta semana contiene los archivos correspondientes a un módulo que saluda a un nombre recibido como parámetro y muestra la versión del kernel[cite: 3].
+Esta semana contiene los archivos correspondientes a un módulo que saluda a un nombre recibido como parámetro y muestra la versión del kernel.
 
-- `saludo.c` es un módulo de kernel que comprueba su ciclo de vida registrando mensajes al cargarlo y retirarlo[cite: 3].
+- `saludo.c` es un módulo de kernel que comprueba su ciclo de vida registrando mensajes al cargarlo y retirarlo.
 
-La compilación de módulos de kernel debe hacerse sobre una máquina Linux[cite: 7]. El módulo debe coincidir con la versión exacta del kernel en ejecución[cite: 4, 7].
+La compilación de módulos de kernel debe hacerse sobre una máquina Linux. El módulo debe coincidir con la versión exacta del kernel en ejecución.
 
 ## Requisitos
 
-En Linux Mint (o distribuciones basadas en Debian/Ubuntu), instala las herramientas de compilación y los headers correspondientes al kernel en ejecución[cite: 3, 4]:
+En Linux Mint (o distribuciones basadas en Debian/Ubuntu), instala las herramientas de compilación y los headers correspondientes al kernel en ejecución:
 
 ```bash
 sudo apt update
