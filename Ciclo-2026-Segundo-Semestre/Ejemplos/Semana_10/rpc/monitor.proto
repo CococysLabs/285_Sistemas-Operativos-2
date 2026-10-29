@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package monitor;
+
+service Monitor {
+  rpc ObtenerMetricas(Solicitud) returns (Metricas);
+}
+
+message Solicitud {}
+
+message Metricas {
+  uint64 mem_libre_kb = 1;
+  uint32 procesos = 2;
+}
